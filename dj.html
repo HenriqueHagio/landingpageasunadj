@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<div>
-    <head>    
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Um bot que irá tocar suas musicas favoritas">
         <title>DJ Asuna</title>
         <link rel="icon" type="image/x-con" href="icon.jpg">
-    </head>
-</div>
+        
+
+</head>
 <style>
 body {
     background-image: url('background.jpg');
@@ -36,20 +40,58 @@ h1 {
 .button:hover {
     background-color: #FF8226;
 }
+.header {
+    font-size:rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;    
+    align-items:center ;
+    justify-content: space-around;
+    
+}
+.header-menu {
+    display: flex;
+    gap: 80px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    font-size: rem;
+    justify-content: end;
+    font-family:Arial, Helvetica, sans-serif;
+    color: grey;
+    
+}
 </style>
 <body>
-<div>
-    <p style="text-align: center;"><img src="asuna_menu.gif" alt="asuna menu" style="width:400px;height:400px;"></p>
-    <h1>Play high quality music in<br> 
-        your Discord server for free.</h1>
-    <p style="text-align: center;color:grey;font-size: 25px;font-family: Arial, Helvetica, sans-serif;">Singing in 0 discords servers</p>
-</div>
- <div>   
-<p style="text-align: center;">  <button class="button"
-onclick="alert('Under Maintenance')"> 
-Invate To Server</button></p>
- </div>
-
-
+    <header class="header">     
+        <a href="file:///C:/Users/heryq/Documents/HTML/asunadj/dj.html">
+            <img src="logo_asuna.png" alt="Logo_asuna" style="width:20%;height: 25%;"></a>  
+        <nav class="header-menu">
+       
+        <a style="color:whitesmoke">Docs</a>
+        <a style="color:whitesmoke">Commands</a>
+        <a style="color:whitesmoke">Dashboard</a>
+        <a style="color:whitesmoke">Login</a>
+        </nav>
+       
+    </header>
+<hr color="#1b1d1f">    
+    <main>
+        <p style="text-align: center;"><img src="asuna_menu.gif" alt="asuna menu" 
+            style="width:400px;height:400px;"></p>
+        <h1>Play high quality music in<br> 
+            your Discord server for free.</h1>
+        <p style="text-align: center;color:grey;font-size: 25px;font-family: Arial, Helvetica, sans-serif;">
+            Singing in 0 discords servers</p>
+        <p style="text-align: center;">  <button class="button"
+                onclick="alert('Under Maintenance')"> 
+                Invate To Server</button></p>
+    </main>
+    <hr color="#1b1d1f">
+    <footer>
+        <a class="footer" href="https://github.com/HenriqueHagio">By: Henrique Hagio</a>
+        
+    </footer>
 </body>
 </html>
